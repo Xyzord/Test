@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #091D42;
+}
+/****** WRAPPER ******/
+div#wrapper {
+	margin: 5% 10% 0 10%;
+	width: auto;
+	height: 100%;
+	background-color: #396A92;
+}
+/****** WRAPPER END ****** /
+
+/****** MENU ******/
+div#menu {
+	width: 20%;
+	height: 95%;
+	float: left;
+	background-color: #396A92;
+}
+div#menu ul {
+	padding: 0;
+	margin: 0;
+}
+div#menu ul a {
+	text-decoration: none;
+	background-color: #FDFDFD;
+	color: #091D42;
+	display: block;
+	padding: 3%;
+}
+div#menu ul li {
+	list-style-type: none;
+	padding: 1% 0 1% 10%;
+}
+div#menu ul li:hover {
+	list-style-type: none;
+	background-color: #9AB4CB;
+	font-weight: bold;
+}
+/****** MENU END ******/
+
+/****** CONTENT ******/
+div#content {
+	width: 60%;
+	height: auto;
+	float: left;
+}
+table { margin: auto; color: #091D42; background-color: #396A92;}
+table th { background-color: #396A92; color: white;}
+table tr { background-color: #CBE2F4;}
+table tr:hover { background-color: #F38630; cursor: context-menu;}
+table tr td { padding: 1% 0;}
+table td.adId { width: 15%; text-align: center; }
+table td.adTitle { width: 50%; text-align: left; padding-left: 1%;  }
+table td.adOwner { width: 40%; text-align: left; padding-left: 1%; }
+table td.usrId { width: 25%; text-align: center; }
+table td.usrName { width: 65%; text-align: left; padding-left: 1%; }
+/****** CONTENT END ******/
+
+/****** FOOTER ******/
+div#footer {
+	width: 100%;
+	height: 5%;
+	float: left;
+	background-color: #091D42;
+	color: #E0E4CC;
+	text-align: right;
+}
+div#footer a { color: white; }
+div#footer a:hover { color: #F38630; }
+/****** FOOTER END ******/

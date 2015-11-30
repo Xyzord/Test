@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /test/
+RewriteCond $1 !^(favicon\.ico|favicon\.png|media|robots\.txt|crossdomain\.xml|css|js)
+RewriteRule ^(.*) index.php?menu=$1 [QSA]
